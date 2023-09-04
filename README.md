@@ -1,4 +1,4 @@
-Personal website of Charlotte van Noort ([charlottevannoort.com](https://charlottevannoort.com)).
+Personal website of Charlotte van Noort ([charlottevannoort.com](https://charlottevannoort.com)), published via [Netlify](https://www.netlify.com/).
 
 History
 -------
