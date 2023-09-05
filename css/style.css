@@ -84,6 +84,7 @@ section.about article .description {
     border-radius: var(--border-radius);
     padding: var(--gutter);
     color: #000000;
+    transition: flex-basis 4s cubic-bezier(0,.9,.4,.99);
 }
 
 section.service article {

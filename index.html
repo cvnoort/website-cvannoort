@@ -22,7 +22,6 @@
 
 <section id="about" class="about">
     <div class="empty"></div>
-    </div>
 
     <article>
         <div class="title">
@@ -99,6 +98,17 @@
     <a href="mailto:cvannoort@live.nl">
         <img src="images/icon_email.png" width="150"/></a>
 </section>
+
+<script>
+
+    let titleElement = document.querySelector('.about .description');
+
+    window.addEventListener( 'mousemove', handleMouseMove);
+
+    function handleMouseMove( event ) {
+        titleElement.style.flexBasis = event.clientY / 2 + 'px';
+    }
+</script>
 
 </body>
 
