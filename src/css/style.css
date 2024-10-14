@@ -3,12 +3,9 @@
 }
 
 html, body {
-    --border-radius: 30px;
     --gutter: 3.125vw 6.25vw;
     --blue: #99acff;
-    --pink: #e9d0fb;
     --beige: #e1d7b7;
-    --grey: #e5e5e5;
 
     margin: 0;
     padding: 0;
@@ -22,14 +19,13 @@ html, body {
 }
 
 h1 {
+    margin: 0;
     font-size: 80px;
-    margin: 0px;
-    color: #000000;
 }
 
 h2 {
+    margin: 0;
     font-size: 60px;
-    margin: 0px;
 }
 
 p {
@@ -61,37 +57,31 @@ section {
 }
 
 section.about article {
-    flex: 1;
     display: flex;
     flex-direction: column;
 }
 
 section.about article .title {
-    flex: 2;
-    display: flex;
-    align-items: flex-end;
     padding: var(--gutter);
 }
 
 section.about article .description {
-    flex: 1;
-    display: flex;
-    align-items: center;
     padding: var(--gutter);
-    color: #000000;
 }
 
 section.service article {
-    display: flex;
     width: 100%;
+
+    display: flex;
 }
 
 section.service figure {
+    margin: 0;
+
     display: flex;
     align-items: center;
     justify-content: center;
     flex-basis: 56.25vw;
-    margin: 0;
 }
 
 section.service figure img {
@@ -99,20 +89,22 @@ section.service figure img {
 }
 
 section.service .text {
+    padding: var(--gutter);
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex: 1;
-    padding: var(--gutter);
 }
 
 section.contact {
+    background: linear-gradient(var(--blue), var(--beige) 50%, var(--blue));
+
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     align-content: center;
     justify-content: center;
-    background: linear-gradient(var(--blue), var(--beige) 50%, var(--blue));
     gap: 1vw;
 }
 
@@ -132,26 +124,29 @@ section.contact a img {
 /* Navigation */
 
 nav {
-    position: fixed;
     width: 84vw;
     height: 15vh;
     top: 0;
     left: 0;
-    font-size: 2.8vh;
-    z-index: 1;
     margin-left: 8vw;
     margin-right: 8vw;
+    color: #FFFFFF;
+    font-size: 2.8vh;
+
+    position: fixed;
+    z-index: 1;
 
     display: flex;
     justify-content: space-between;
 }
 
 nav ul {
-    display: flex;
-    align-items: center;
     height: 100%;
     margin: 0;
     padding: 0;
+
+    display: flex;
+    align-items: center;
 }
 
 nav ul li {
@@ -166,18 +161,19 @@ nav ul li:hover {
 
 nav ul.nav-info {
     width: 70%;
+
     justify-content: left;
     gap: 2vw;
 }
 
 nav ul.nav-contact {
     width: 30%;
+
     justify-content: right;
     gap: 1vw;
 }
 
 nav ul li a {
-    color: #ffffff;
     font-family: 'Space Mono', monospace;
 }
 
