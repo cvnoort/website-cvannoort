@@ -20,12 +20,13 @@ html, body {
 
 h1 {
     margin: 0;
-    font-size: 80px;
+    font-size: 8.8vh;
 }
 
 h2 {
     margin: 0;
-    font-size: 60px;
+    font-size: 4.4vh;
+    text-transform: uppercase;
 }
 
 p {
@@ -54,6 +55,25 @@ section {
     align-items: center;
     justify-content: center;
     gap: 4vh;
+}
+
+section article {
+    margin: 4vh;
+}
+
+section article.description-left {
+    width: 24vw;
+    text-align: left;
+}
+
+section article.description-right {
+    width: 24vw;
+    text-align: right;
+}
+
+section article.description-full {
+    width: 70vw;
+    text-align: left;
 }
 
 section.about article {
@@ -119,6 +139,15 @@ section.contact a:hover {
 
 section.contact a img {
     width: 8vw;
+}
+
+section.project img {
+    width: 22vw;
+}
+
+#etsy-detail {
+    color: #7BA4DB;
+    font-weight: normal;
 }
 
 /* Navigation */
