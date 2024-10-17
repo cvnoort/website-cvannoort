@@ -295,6 +295,12 @@ section.service.service-science figure img:hover {
         display: none;
     }
 
+    section {
+        flex-wrap: wrap;
+        align-content: center;
+        gap: 5%;
+    }
+
     section.service article {
         flex-direction: column;
     }
@@ -313,5 +319,16 @@ section.service.service-science figure img:hover {
 
     section.contact a img {
         width: calc(50vw - 4 * 6.25vw);
+    }
+
+    section.project article {
+        width: 80%;
+        text-align: center;
+        order: 2;
+    }
+
+    section.project img {
+        width: 40%;
+        order: 1;
     }
 }
