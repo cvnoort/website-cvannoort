@@ -171,6 +171,7 @@ nav {
 
 nav ul {
     height: 100%;
+    width: 40%;
     margin: 0;
     padding: 0;
 
@@ -189,15 +190,11 @@ nav ul li:hover {
 }
 
 nav ul.nav-info {
-    width: 70%;
-
     justify-content: left;
     gap: 2vw;
 }
 
 nav ul.nav-contact {
-    width: 30%;
-
     justify-content: right;
     gap: 1vw;
 }
@@ -209,6 +206,16 @@ nav ul li a {
 nav ul li img {
     height: 5vh;
     width: 5vh;
+}
+
+#nav-name {
+    margin: auto;
+    width: 20%;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.8vh;
+    text-align: center;
 }
 
 /* Service section animations */
