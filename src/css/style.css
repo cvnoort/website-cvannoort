@@ -223,6 +223,7 @@ nav ul li img {
     margin: auto;
     margin-right: 0;
     display: none;
+    cursor: pointer;
 
     font-family: "Rubik Mono One", monospace;
     font-weight: 400;
