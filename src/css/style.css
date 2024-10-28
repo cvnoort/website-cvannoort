@@ -79,6 +79,12 @@ section article.description-full {
 section.about#intro article {
     width: auto;
     font-family: 'Space Mono', monospace;
+    line-height: 1.8;
+}
+
+section.about#intro article span.highlight {
+    background-color: #000000;
+    color: #FFFFFF;
 }
 
 section.project img {
