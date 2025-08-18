@@ -29,8 +29,10 @@ h2 {
     text-transform: uppercase;
 }
 
-p {
+p, ul, li {
+    margin: 0;
     font-size: 3.4vh;
+    list-style-type: none;
 }
 
 a {
@@ -80,6 +82,10 @@ section.about#intro article {
     width: auto;
     font-family: 'Space Mono', monospace;
     line-height: 1.8;
+}
+
+section.about#intro article ul {
+    padding-inline-start: 48px;
 }
 
 section.about#intro article span.highlight {
@@ -200,7 +206,7 @@ nav ul li img {
         font-size: 3.8vh;
     }
 
-    p {
+    p, ul, li {
         font-size: 2vh;
     }
 
@@ -243,6 +249,10 @@ nav ul li img {
     section.project img {
         width: 40%;
         order: 1;
+    }
+
+    section.about#intro article ul {
+        padding-inline-start: 28px;
     }
 
     #head-shot {
